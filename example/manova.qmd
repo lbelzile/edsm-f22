@@ -5,7 +5,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-The data presented in this example vignette is inspired by a study from @Anandarajan:2002, who looked at the impact of communication means through different disclosure format on the perceived risk of organization on the brink of bankruptcy in accountancy. There is a single between-subject factor for the disclore format, and three measures of the performance, ratings for the interest rate premium assessed, for the ability to service debt and that to improve profitability.
+The data presented in this example vignette is inspired by a study from @Anandarajan:2002, who looked at the impact of communication means through different disclosure format on the perceived risk of organization on the brink of bankruptcy in accountancy. There is a single between-subject factor for the disclosure format, and three measures of the performance, ratings for the interest rate premium assessed, for the ability to service debt and that to improve profitability.
 
 ## Data 
 
@@ -75,7 +75,7 @@ MASS::lda(format ~ prime + debt + profitability,
           data = AVC02)
 ```
 
-Interpretation of these is beyond the scope of the course, but you can find information about linear discriminant analysis in good textbooks (TODO add reference).
+Interpretation of these is beyond the scope of the course, but you can find information about linear discriminant analysis in multivariate statistics textbooks.
 
 ## Model assumptions
 
